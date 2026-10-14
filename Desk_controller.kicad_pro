@@ -757,7 +757,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "P1-101,L1,TFT1,#PWR1-4,Y1,J1-10,Pwr1-93,C1-42,D1-6,U1-4,JP1-26,R1-44,TP1-21,H1-6,#FLG1-2",
+    "used_designators": "TP1-21,R1-44,#FLG1-2,H1-6,P1-101,L1,TFT1,#PWR1-4,Y1,J1-10,Pwr1-93,C1-42,D1-6,U1-4,JP1-26",
     "variants": []
   },
   "sheets": [
@@ -794,7 +794,7 @@
     "PROJECT": "FLRHW KiCad Starter",
     "RELEASED": "Releaser initials",
     "REVIEWED": "Reviewer initials",
-    "SHEET_TITLE_1": "PROJECT TITLE",
+    "SHEET_TITLE_1": "FLRHW KiCad Starter",
     "SHEET_TITLE_10": "",
     "SHEET_TITLE_11": "",
     "SHEET_TITLE_12": "",
@@ -805,7 +805,7 @@
     "SHEET_TITLE_17": "",
     "SHEET_TITLE_18": "",
     "SHEET_TITLE_19": "",
-    "SHEET_TITLE_2": "System_overview",
+    "SHEET_TITLE_2": "System overview",
     "SHEET_TITLE_20": "",
     "SHEET_TITLE_21": "",
     "SHEET_TITLE_22": "",
@@ -827,7 +827,7 @@
     "SHEET_TITLE_37": "",
     "SHEET_TITLE_38": "",
     "SHEET_TITLE_39": "",
-    "SHEET_TITLE_4": "Block_diagram",
+    "SHEET_TITLE_4": "Block diagram",
     "SHEET_TITLE_40": "",
     "SHEET_TITLE_5": "Childsheet_1_example",
     "SHEET_TITLE_6": "Childsheet_2_example",
