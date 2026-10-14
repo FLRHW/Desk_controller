@@ -1,0 +1,12 @@
+KiCad project build information
+==============================
+Generated UTC: 2026-10-14T20:31:28Z
+Repository: FLRHW/Desk_controller
+Source commit: 56c463b1fdfa3e88db6452b9f63db07d408bf923
+Source ref: refs/heads/main
+Workflow run: https://github.com/FLRHW/Desk_controller/actions/runs/38632061049
+Container image: ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8
+
+KiCad: 10.0.5
+KiBot: KiBot 1.9.1 - Copyright 2018-2026, Salvador E. Tropea/INTI/John Beard - License: AGPL v3
+Python: Python 3.13.5

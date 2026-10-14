@@ -1,0 +1,60 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-14T20:27:13",
+    "ignored_checks": [
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565",
+            "violations": [],
+            "file_name": "Desk_controller.kicad_sch"
+        },
+        {
+            "path": "/System overview/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade",
+            "violations": [],
+            "file_name": "System_overview.kicad_sch"
+        },
+        {
+            "path": "/System overview/Interface_childsheet_0_example/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/14f16955-1288-4b6d-8526-30feb095af40",
+            "violations": [],
+            "file_name": "Interface_childsheet_0_example.kicad_sch"
+        },
+        {
+            "path": "/System overview/Block diagram/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146",
+            "violations": [],
+            "file_name": "Block_diagram.kicad_sch"
+        },
+        {
+            "path": "/System overview/Block diagram/Childsheet_1_example/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/46f55883-3a35-4b87-b726-ff148fa37feb",
+            "violations": [],
+            "file_name": "Childsheet_1_example.kicad_sch"
+        },
+        {
+            "path": "/System overview/Block diagram/Childsheet_2_example/",
+            "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade/75753c83-0606-4e75-9e41-6be2b05a7146/45423d9b-a161-4bac-8a91-6c24c243381d",
+            "violations": [],
+            "file_name": "Childsheet_2_example.kicad_sch"
+        }
+    ],
+    "source": "Desk_controller.kicad_sch"
+}
