@@ -268,7 +268,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.0.0"
+      "sch_revision": "1.1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -757,7 +757,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TP1-21,R1-44,#FLG1-2,H1-6,P1-101,L1,TFT1,#PWR1-4,Y1,J1-10,Pwr1-93,C1-42,D1-6,U1-4,JP1-26",
+    "used_designators": "#PWR1-4,Y1,J1-10,C1-42,Pwr1-102,D1-6,U1-4,JP1-26,TP1-21,R1-44,#FLG1-2,H1-6,P1-101,L1,TFT1",
     "variants": []
   },
   "sheets": [
@@ -770,31 +770,51 @@
       "System overview"
     ],
     [
+      "530adda3-01e4-4b6b-a1ac-4baffe34a38f",
+      "DC power supply"
+    ],
+    [
       "14f16955-1288-4b6d-8526-30feb095af40",
-      "Interface_childsheet_0_example"
+      "Servomotor"
+    ],
+    [
+      "93e08973-bf7b-4721-86fd-f9b1f47b2741",
+      "Limit switches"
     ],
     [
       "75753c83-0606-4e75-9e41-6be2b05a7146",
       "Block diagram"
     ],
     [
+      "b82551a8-611f-45c2-9081-fb3586c9fb96",
+      "DCDC converter 3V3"
+    ],
+    [
       "46f55883-3a35-4b87-b726-ff148fa37feb",
-      "Childsheet_1_example"
+      "Microcontroller"
     ],
     [
       "45423d9b-a161-4bac-8a91-6c24c243381d",
-      "Childsheet_2_example"
+      "Servomotor interface"
+    ],
+    [
+      "7bb06f7b-e915-488b-86c5-2292f1328c7b",
+      "Limit switch interface"
+    ],
+    [
+      "bf33bbdd-0e0b-4623-abff-98a7b84ad1b1",
+      "Display"
     ]
   ],
   "text_variables": {
     "CONTENTS_LABEL": "Contents",
     "DRAWING_NUMBER": "NA",
-    "DRAWN": "Designer initials",
-    "MATURITY": "Concept/Validation/Production",
-    "PROJECT": "FLRHW KiCad Starter",
-    "RELEASED": "Releaser initials",
-    "REVIEWED": "Reviewer initials",
-    "SHEET_TITLE_1": "PROJECT TITLE",
+    "DRAWN": "FLR",
+    "MATURITY": "Concept",
+    "PROJECT": "Desk controller",
+    "RELEASED": "FLR",
+    "REVIEWED": "FLR",
+    "SHEET_TITLE_1": "Desk controller",
     "SHEET_TITLE_10": "",
     "SHEET_TITLE_11": "",
     "SHEET_TITLE_12": "",

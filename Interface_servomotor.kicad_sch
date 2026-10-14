@@ -1,0 +1,56 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "c7237274-5d57-42dc-9eaf-16fbbb123fb0")
+	(paper "A4")
+	(title_block
+		(date "2026-10-18")
+		(rev "1.1.0")
+	)
+	(lib_symbols)
+	(text "Return to front sheet"
+		(exclude_from_sim no)
+		(at 12.7 197.485 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 194 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "2daefc71-1062-444e-a205-e9f4457bb875")
+	)
+	(text "Interface specification"
+		(exclude_from_sim no)
+		(at 25.4 26.67 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.54 2.54)
+				(thickness 0.3175)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "50873fb0-64a0-41dd-bacd-ce5bd8e93db0")
+	)
+	(text "JST B6B-XH-A / JST XHP-6 connector\n\nPin  Description\n  1  Encoder B output (VCC)\n  2  Encoder A output (VCC)\n  3  GND\n  4  VCC (3.3 - 5V)\n  5  Motor B (3 A, 12-24 V)\n  6  Motor A (3 A, 12-24 V)"
+		(exclude_from_sim no)
+		(at 26.035 31.75 0)
+		(effects
+			(font
+				(face "DejaVu Sans Mono")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e469b3be-c7c0-4564-aac6-74e7c412ad16")
+	)
+)

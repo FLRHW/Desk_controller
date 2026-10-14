@@ -5,10 +5,132 @@
 	(uuid "8ef87801-54d5-402d-8c74-54a08740dc28")
 	(paper "A4")
 	(title_block
-		(date "2026-10-06")
-		(rev "1.0.0")
+		(title "Desk controller")
+		(date "2026-10-18")
+		(rev "1.1.0")
 	)
 	(lib_symbols)
+	(rectangle
+		(start 216.535 120.65)
+		(end 241.935 133.35)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0addcd14-aa77-4260-890d-918553220416")
+	)
+	(rectangle
+		(start 245.745 91.44)
+		(end 247.015 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "0df2326d-35fe-4080-acae-d5fa4543a354")
+	)
+	(rectangle
+		(start 63.5 44.45)
+		(end 88.9 57.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "1c5f2569-e9af-4d16-b389-87f34696f366")
+	)
+	(rectangle
+		(start 244.475 86.36)
+		(end 248.285 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2ee9ecda-7307-462f-83b7-2fb8a99e9acf")
+	)
+	(rectangle
+		(start 211.455 91.44)
+		(end 212.725 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "79ba494c-d716-4892-a0f5-3440031e4de6")
+	)
+	(rectangle
+		(start 210.185 86.36)
+		(end 213.995 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "82ce17d8-e35e-44da-ac1f-e14c380ac78d")
+	)
+	(rectangle
+		(start 208.915 83.82)
+		(end 249.555 86.36)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "84f69fee-07c7-4c78-9dd7-3608ca3f50bf")
+	)
+	(circle
+		(center 225.425 50.8)
+		(radius 8.89)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "b701593d-1321-4893-a295-ad476292f34c")
+	)
+	(rectangle
+		(start 203.2 76.2)
+		(end 254 101.6)
+		(stroke
+			(width 0)
+			(type dash)
+			(color 0 0 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "bacc657e-ec2e-4c9e-973c-a9ba0a30c549")
+	)
+	(rectangle
+		(start 234.315 46.99)
+		(end 241.935 54.61)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "c2547942-2514-4bf3-be93-2bcc643bc410")
+	)
 	(text "This sheet shows the overall system and the interfaces to external components.\nExternal components are shown for system context only and are not part of this schematic.\nOnly the \"DESIGNED SUBSYSTEM\" is covered by this schematic."
 		(exclude_from_sim no)
 		(at 50.8 166.37 0)
@@ -21,7 +143,40 @@
 		)
 		(uuid "0c7f6426-d296-4b68-be07-c823a2058f11")
 	)
-	(text "Simple description of contents"
+	(text "Top"
+		(exclude_from_sim no)
+		(at 234.95 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "1128d098-ee3b-4c58-a3cc-8c09ac660e3d")
+	)
+	(text "Bottom"
+		(exclude_from_sim no)
+		(at 224.79 121.92 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4c5175b9-ce98-4ac6-8084-5a5869cb8104")
+	)
+	(text "AC / DC"
+		(exclude_from_sim no)
+		(at 76.2 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1905)
+			)
+		)
+		(uuid "86d391dd-61b3-4aaa-a43f-a33ae797b09f")
+	)
+	(text "DCDC converter\n\nControl logic\n\nServomotor interface\n(power driver + encoder conditioning)\n\nLimit switch interface\n\nDisplay"
 		(exclude_from_sim no)
 		(at 152.4 86.36 0)
 		(effects
@@ -47,6 +202,28 @@
 		)
 		(uuid "9fafaf3d-ddf0-43b3-9d75-7b2a9577eaed")
 	)
+	(text "DESK MECHANISM"
+		(exclude_from_sim no)
+		(at 204.47 77.47 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+				(thickness 0.1905)
+			)
+			(justify left top)
+		)
+		(uuid "bbf40b93-f636-4a44-a1eb-3760a24257eb")
+	)
+	(text "Motor, gearbox\nand encoder"
+		(exclude_from_sim no)
+		(at 225.425 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f025ff6f-55b6-4e29-a5b5-49404966b415")
+	)
 	(text "Return to front sheet"
 		(exclude_from_sim no)
 		(at 12.7 197.485 0)
@@ -64,6 +241,27 @@
 	)
 	(polyline
 		(pts
+			(xy 243.205 96.52) (xy 249.555 96.52)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "07351c43-8085-4661-9714-a871879447ed")
+	)
+	(polyline
+		(pts
+			(xy 255.905 127) (xy 262.255 127)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "0cabbb79-9f8f-4ea4-92ea-dd809d3cc7d0")
+	)
+	(polyline
+		(pts
 			(xy 179.07 50.8) (xy 201.93 50.8)
 		)
 		(stroke
@@ -72,6 +270,28 @@
 			(color 0 0 0 1)
 		)
 		(uuid "210dfcd9-ed3a-49b7-990a-6fa0fb4f91bf")
+	)
+	(polyline
+		(pts
+			(xy 255.905 91.44) (xy 262.255 91.44)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "2389ca04-9b69-4784-b8eb-8f420d3d7455")
+	)
+	(polyline
+		(pts
+			(xy 262.255 91.44) (xy 262.255 127)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "30501593-11f0-4954-9491-e847952f2758")
 	)
 	(polyline
 		(pts
@@ -86,6 +306,26 @@
 	)
 	(polyline
 		(pts
+			(xy 222.885 127) (xy 224.155 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48750f52-b2b2-494d-942c-691b21927849")
+	)
+	(polyline
+		(pts
+			(xy 208.915 96.52) (xy 215.265 96.52)
+		)
+		(stroke
+			(width 0.508)
+			(type default)
+		)
+		(uuid "49d5fdce-19b6-4409-a3f5-8bbe2043277b")
+	)
+	(polyline
+		(pts
 			(xy 200.66 52.07) (xy 201.93 50.8)
 		)
 		(stroke
@@ -94,6 +334,59 @@
 			(color 0 0 0 1)
 		)
 		(uuid "4f633d02-83a9-4890-a538-6a5ebf9ed76f")
+	)
+	(polyline
+		(pts
+			(xy 255.905 85.09) (xy 257.175 83.82)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "52f10eb9-6298-4b75-8486-89bb5478e692")
+	)
+	(polyline
+		(pts
+			(xy 124.46 49.53) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "63f48160-d0e4-4048-8964-baef502be564")
+	)
+	(polyline
+		(pts
+			(xy 224.155 124.46) (xy 224.155 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8c876c-5724-42c7-8b36-5305827f5155")
+	)
+	(polyline
+		(pts
+			(xy 234.315 121.92) (xy 234.315 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c28402e-298b-4c78-98f0-232ef13637a5")
+	)
+	(polyline
+		(pts
+			(xy 262.255 50.8) (xy 262.255 85.09)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "71304ad5-1e0b-4eac-93ca-22faa6d410ce")
 	)
 	(polyline
 		(pts
@@ -108,6 +401,91 @@
 	)
 	(polyline
 		(pts
+			(xy 255.905 50.8) (xy 262.255 50.8)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "7ffd2e3c-62b1-46e7-891e-ea05894663a5")
+	)
+	(polyline
+		(pts
+			(xy 255.905 85.09) (xy 262.255 85.09)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "ab95627a-1c2b-46b4-bbe5-d29984df38c8")
+	)
+	(polyline
+		(pts
+			(xy 224.155 127) (xy 224.155 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcb37656-f140-4c4a-9a64-1804ee3d234f")
+	)
+	(polyline
+		(pts
+			(xy 255.905 127) (xy 257.175 125.73)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "c84b3d03-32ef-497d-ae5b-203ccdcec11d")
+	)
+	(polyline
+		(pts
+			(xy 224.155 121.92) (xy 224.155 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca5d8924-dacd-4794-8cc9-f2fe5e3b1c17")
+	)
+	(polyline
+		(pts
+			(xy 102.87 50.8) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d20f825a-ff9f-4084-9f07-6a08afa7e530")
+	)
+	(polyline
+		(pts
+			(xy 255.905 127) (xy 257.175 128.27)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "d63e9b8e-4082-4a81-bf50-520b8e19744e")
+	)
+	(polyline
+		(pts
+			(xy 234.315 127) (xy 234.315 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6575fc3-6dd1-4626-bd98-e3d442083d1d")
+	)
+	(polyline
+		(pts
 			(xy 179.07 50.8) (xy 180.34 52.07)
 		)
 		(stroke
@@ -116,6 +494,38 @@
 			(color 0 0 0 1)
 		)
 		(uuid "e836e859-1609-4e7f-b38b-6b5f8485bfac")
+	)
+	(polyline
+		(pts
+			(xy 255.905 85.09) (xy 257.175 86.36)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "eaaab5f0-9335-41c8-942e-930a923fa33f")
+	)
+	(polyline
+		(pts
+			(xy 124.46 52.07) (xy 125.73 50.8)
+		)
+		(stroke
+			(width 1.016)
+			(type solid)
+			(color 0 0 0 1)
+		)
+		(uuid "edb35386-84ca-431e-af52-8af0b13b690d")
+	)
+	(polyline
+		(pts
+			(xy 233.045 127) (xy 234.315 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7a1810-4405-4287-ab03-c933c8621956")
 	)
 	(sheet
 		(at 203.2 38.1)
@@ -133,7 +543,7 @@
 			(color 250 240 240 1)
 		)
 		(uuid "14f16955-1288-4b6d-8526-30feb095af40")
-		(property "Sheetname" "Interface_childsheet_0_example"
+		(property "Sheetname" "Servomotor"
 			(at 203.2 37.3884 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -144,8 +554,54 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Interface_childsheet_0_example.kicad_sch"
+		(property "Sheetfile" "Interface_servomotor.kicad_sch"
 			(at 203.2 64.0846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Desk_controller"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 50.8 38.1)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 250 240 240 1)
+		)
+		(uuid "530adda3-01e4-4b6b-a1ac-4baffe34a38f")
+		(property "Sheetname" "DC power supply"
+			(at 50.8 37.3884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_Power_supply.kicad_sch"
+			(at 50.8 64.0846 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -204,7 +660,53 @@
 		(instances
 			(project "Desk_controller"
 				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
-					(page "4")
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 203.2 114.3)
+		(size 50.8 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 250 240 240 1)
+		)
+		(uuid "93e08973-bf7b-4721-86fd-f9b1f47b2741")
+		(property "Sheetname" "Limit switches"
+			(at 203.2 113.5884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface_Limit_switches.kicad_sch"
+			(at 203.2 140.2846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Desk_controller"
+				(path "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565/8691f566-486a-4ca4-ac00-06f17a09aade"
+					(page "5")
 				)
 			)
 		)
