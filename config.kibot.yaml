@@ -881,12 +881,12 @@ definitions:
   RENDER_SAMPLES_high: '8'
 
   RENDER_WIDTH_disabled: '100'
-  RENDER_WIDTH_low: '600'
+  RENDER_WIDTH_low: '1000'
   RENDER_WIDTH_mid: '1000'
   RENDER_WIDTH_high: '2000'
 
   RENDER_HEIGHT_disabled: '100'
-  RENDER_HEIGHT_low: '600'
+  RENDER_HEIGHT_low: '1000'
   RENDER_HEIGHT_mid: '1000'
   RENDER_HEIGHT_high: '2000'
 
