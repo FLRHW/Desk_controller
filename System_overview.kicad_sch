@@ -5,7 +5,6 @@
 	(uuid "8ef87801-54d5-402d-8c74-54a08740dc28")
 	(paper "A4")
 	(title_block
-		(title "Desk controller")
 		(date "2026-10-18")
 		(rev "1.1.0")
 	)
