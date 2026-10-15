@@ -21,7 +21,7 @@
         "dimensions": {
           "arrow_length": 1270000,
           "extension_offset": 500000,
-          "keep_text_aligned": true,
+          "keep_text_aligned": false,
           "suppress_zeroes": true,
           "text_position": 1,
           "units_format": 0
@@ -63,9 +63,9 @@
           "min_clearance": 0.25,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
-          "pad_connection": 3,
+          "pad_connection": 2,
           "remove_islands": 0,
-          "thermal_relief_gap": 0.25,
+          "thermal_relief_gap": 0.5,
           "thermal_relief_spoke_width": 0.5
         }
       },
@@ -757,7 +757,7 @@
         "uuid": "f14ff7c3-fe34-4697-84b8-3cc06a5a3565"
       }
     ],
-    "used_designators": "TFT1,#PWR1-4,Y1,J1-10,Pwr1-102,C1-42,D1-6,U1-5,JP1-26,R1-44,TP1-21,H1-6,#FLG1-2,L1,P1-101",
+    "used_designators": "C1-42,Pwr1-102,D1-6,U1-5,JP1-26,TP1-21,R1-44,#FLG1-2,H1-6,P1-101,L1,TFT1,#PWR1-4,Y1,J1-10",
     "variants": []
   },
   "sheets": [
