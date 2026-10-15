@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/drc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-15T18:37:58",
+    "date": "2026-10-15T19:50:07",
     "ignored_checks": [
         {
             "description": "Footprint has no courtyard defined",
@@ -26,7 +26,38 @@
         "exclusion"
     ],
     "kicad_version": "10.0.5",
-    "schematic_parity": [],
+    "schematic_parity": [
+        {
+            "description": "Value (U1) doesn't match symbol value (LMR380x0)",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 163.473,
+                        "y": 75.74
+                    },
+                    "uuid": "7578f3b6-3dfd-4a02-9e4e-4f3c0697e0f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        },
+        {
+            "description": "Personal:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias_w_step doesn't match footprint given by symbol (Package_SO:Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias)",
+            "items": [
+                {
+                    "description": "Footprint U1",
+                    "pos": {
+                        "x": 163.473,
+                        "y": 75.74
+                    },
+                    "uuid": "7578f3b6-3dfd-4a02-9e4e-4f3c0697e0f2"
+                }
+            ],
+            "severity": "warning",
+            "type": "footprint_symbol_mismatch"
+        }
+    ],
     "source": "Desk_controller.kicad_pcb",
     "unconnected_items": [],
     "violations": [
@@ -36,7 +67,7 @@
                 {
                     "description": "Segment of J6 on F.Silkscreen",
                     "pos": {
-                        "x": 198.925,
+                        "x": 197.425,
                         "y": 77.976
                     },
                     "uuid": "6e813630-695b-4654-ad71-e0392c616bac"
@@ -44,7 +75,7 @@
                 {
                     "description": "Rectangle on F.Mask",
                     "pos": {
-                        "x": 197.993,
+                        "x": 196.493,
                         "y": 77.264
                     },
                     "uuid": "f66cbe0d-02ba-4497-ac29-a52929c95081"
@@ -59,7 +90,7 @@
                 {
                     "description": "Segment of J6 on F.Silkscreen",
                     "pos": {
-                        "x": 198.925,
+                        "x": 197.425,
                         "y": 79.976
                     },
                     "uuid": "e6a4ce08-8695-46eb-a198-73932f175cde"
@@ -67,7 +98,7 @@
                 {
                     "description": "Rectangle on F.Mask",
                     "pos": {
-                        "x": 197.993,
+                        "x": 196.493,
                         "y": 77.264
                     },
                     "uuid": "f66cbe0d-02ba-4497-ac29-a52929c95081"
@@ -82,7 +113,7 @@
                 {
                     "description": "Segment of J6 on F.Silkscreen",
                     "pos": {
-                        "x": 188.425,
+                        "x": 186.925,
                         "y": 79.976
                     },
                     "uuid": "29a89f2b-de74-4cbd-bbb7-005fab9d532d"
@@ -90,7 +121,7 @@
                 {
                     "description": "Rectangle on F.Mask",
                     "pos": {
-                        "x": 187.579,
+                        "x": 186.079,
                         "y": 77.264
                     },
                     "uuid": "fdb71f05-fe44-44f1-b64d-87c650c1167d"
@@ -105,7 +136,7 @@
                 {
                     "description": "Segment of J6 on F.Silkscreen",
                     "pos": {
-                        "x": 189.425,
+                        "x": 187.925,
                         "y": 77.976
                     },
                     "uuid": "a32bff4e-6815-495d-a6af-a304bc8fa5b7"
@@ -113,7 +144,7 @@
                 {
                     "description": "Rectangle on F.Mask",
                     "pos": {
-                        "x": 187.579,
+                        "x": 186.079,
                         "y": 77.264
                     },
                     "uuid": "fdb71f05-fe44-44f1-b64d-87c650c1167d"
@@ -121,336 +152,6 @@
             ],
             "severity": "warning",
             "type": "silk_over_copper"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP11",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 77.01
-                    },
-                    "uuid": "1db71e05-a78e-4461-aa92-58049278d9ae"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP8",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 69.39
-                    },
-                    "uuid": "2c492eaf-4476-47c9-8166-172de6e6a3c9"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint J6",
-                    "pos": {
-                        "x": 193.675,
-                        "y": 90.726
-                    },
-                    "uuid": "433e184b-e261-42f5-8c81-d5e1a8da36e6"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP26",
-                    "pos": {
-                        "x": 136.1415,
-                        "y": 68.247
-                    },
-                    "uuid": "48a668bb-9584-421f-839e-74d8ccedc3c4"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP21",
-                    "pos": {
-                        "x": 138.049,
-                        "y": 78.026
-                    },
-                    "uuid": "7a3ae05a-c847-4df8-91ff-f66e321ecfa2"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP2",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 53.134
-                    },
-                    "uuid": "7bf3508e-10f3-4b33-9211-7be2c4b97e7f"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP17",
-                    "pos": {
-                        "x": 144.399,
-                        "y": 69.644
-                    },
-                    "uuid": "8a863c19-88dd-4720-b913-ab8e5ecf062f"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP12",
-                    "pos": {
-                        "x": 179.959,
-                        "y": 74.216
-                    },
-                    "uuid": "9fcef3bb-eb85-41d8-b6fa-bc2f12a7cd7d"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP10",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 74.47
-                    },
-                    "uuid": "a1652806-a822-4b9f-af54-4df95aa3d74f"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP13",
-                    "pos": {
-                        "x": 123.825,
-                        "y": 71.93
-                    },
-                    "uuid": "a97b4a07-65f4-4acd-a7a5-6c51dd471f65"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP3",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 54.912
-                    },
-                    "uuid": "ac74cce3-a3ab-44b4-903e-fd4dfcdb2fac"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP16",
-                    "pos": {
-                        "x": 144.399,
-                        "y": 67.612
-                    },
-                    "uuid": "b5a7174a-c8f4-42eb-8199-192c9b95a39a"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP15",
-                    "pos": {
-                        "x": 144.399,
-                        "y": 65.58
-                    },
-                    "uuid": "cc9645d0-6566-48ef-8dbe-4ce32259a0e6"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP1",
-                    "pos": {
-                        "x": 113.411,
-                        "y": 51.356
-                    },
-                    "uuid": "cf25f73d-fa76-47fc-8d16-c9d1f4dc1a33"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint J8",
-                    "pos": {
-                        "x": 171.069,
-                        "y": 52.118
-                    },
-                    "uuid": "e7ade037-07ec-49ba-8404-1a06ec02086d"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint L1",
-                    "pos": {
-                        "x": 170.053,
-                        "y": 84.122
-                    },
-                    "uuid": "ee434a53-e0d2-4ad9-80ab-e833ac9740ef"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint J5",
-                    "pos": {
-                        "x": 138.049,
-                        "y": 84.122
-                    },
-                    "uuid": "f6aa5b7e-ff6e-4d27-bec3-9cda02ac943f"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint J4",
-                    "pos": {
-                        "x": 148.2405,
-                        "y": 81.9376
-                    },
-                    "uuid": "4f3e3d1c-14e3-4907-b409-0c4b4a6bcc38"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP23",
-                    "pos": {
-                        "x": 151.569545,
-                        "y": 56.633244
-                    },
-                    "uuid": "64727534-5ee4-4b23-b1be-4ec4d0533a1b"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP24",
-                    "pos": {
-                        "x": 152.777496,
-                        "y": 63.238426
-                    },
-                    "uuid": "abd9e542-977a-4ceb-b50b-5f0cec4ded57"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint JP25",
-                    "pos": {
-                        "x": 134.110488,
-                        "y": 67.363478
-                    },
-                    "uuid": "d47a61d9-1c33-4bec-b500-dac04f7e4001"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
-        },
-        {
-            "description": "The current configuration does not include the footprint library 'Personal'",
-            "items": [
-                {
-                    "description": "Footprint TFT1",
-                    "pos": {
-                        "x": 145.787,
-                        "y": 65.712
-                    },
-                    "uuid": "f553d809-c3d6-4fe4-87f6-c974213027b6"
-                }
-            ],
-            "severity": "warning",
-            "type": "lib_footprint_issues"
         }
     ]
 }
