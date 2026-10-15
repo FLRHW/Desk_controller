@@ -33,7 +33,7 @@ Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datashee
 32,Resistor,R,R6,23.2k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,YAGEO,AC0603FR-0723K2L,,,,
 33,Resistor,R,R3,64.9k,R_0603_1608Metric_Pad0.98x0.95mm_HandSolder,1, ,,YAGEO,AC0603FR-0764K9L,,,,
 34,,TFT_2.8_IN_320x240,TFT1,TFT_2.4in_320x240,Display_240x320_ILI9341_2.4in_no_pads,1, ,,TENSTAR ROBOT,ILI9341_320x240,,,,
-35,,LMR380x0,U1,LMR38020,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias,1, ,,Texas instruments,LMR38020FDDAR,,,,
+35,,LMR380x0,U1,LMR380x0,Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias_w_step,1, ,,Texas instruments,LMR38020FDDAR,,,,
 36,"STMicroelectronics Arm Cortex-M4 MCU, 64KB flash, 32KB RAM, 170 MHz, 1.71-3.6V, 26 GPIO, LQFP32",STM32G431K8Tx,U2,STM32G431K8T,LQFP-32_7x7mm_P0.8mm,1, ,https://www.st.com/resource/en/datasheet/stm32g431k8.pdf,ST,STM32G431K8T6,,,,
 37,"Very low capacitance ESD protection diode, 2 data-line, SOT-23-6",USBLC6-2SC6,U4,USBLC6-2SC6,SOT-23-6,1, ,https://www.st.com/resource/en/datasheet/usblc6-2.pdf,ST,USBLC6-2SC6,,,,
 38,,VNH7070,U3,VNH7070,JEITA_SOIC-16_3.9x9.9mm_P1.27mm,1, ,,ST,VNH7070,,,,

@@ -1,7 +1,7 @@
 {
     "$schema": "https://schemas.kicad.org/erc.v1.json",
     "coordinate_units": "mm",
-    "date": "2026-10-15T19:50:03",
+    "date": "2026-10-15T20:17:16",
     "ignored_checks": [
         {
             "description": "SPICE model issue",
@@ -22,38 +22,7 @@
         {
             "path": "/",
             "uuid_path": "/f14ff7c3-fe34-4697-84b8-3cc06a5a3565",
-            "violations": [
-                {
-                    "description": "Footprint 'Texas_HSOP-8-1EP_3.9x4.9mm_P1.27mm_ThermalVias' not found in library 'Package_SO'",
-                    "items": [
-                        {
-                            "description": "Symbol U1 [LMR380x0]",
-                            "pos": {
-                                "x": 1.3335,
-                                "y": 0.8001
-                            },
-                            "uuid": "3d8bc551-8e7d-4ff2-a9e5-9c7ecc0da9b6"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "footprint_link_issues"
-                },
-                {
-                    "description": "Symbol 'LMR380x0' doesn't match copy in library 'personal'",
-                    "items": [
-                        {
-                            "description": "Symbol U1 [LMR380x0]",
-                            "pos": {
-                                "x": 1.3335,
-                                "y": 0.8001
-                            },
-                            "uuid": "3d8bc551-8e7d-4ff2-a9e5-9c7ecc0da9b6"
-                        }
-                    ],
-                    "severity": "warning",
-                    "type": "lib_symbol_mismatch"
-                }
-            ],
+            "violations": [],
             "file_name": "Desk_controller.kicad_sch"
         },
         {
