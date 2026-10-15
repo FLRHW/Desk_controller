@@ -1,0 +1,8 @@
+{
+  "restore": [
+    "sym-lib-table",
+    "fp-lib-table",
+    "Desk_controller.kicad_pcb"
+  ],
+  "remove_if_restoring": []
+}

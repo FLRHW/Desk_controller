@@ -1,0 +1,236 @@
+(footprint "Display_240x320_ILI9341_2.4in_no_pads"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1.016 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "37a8c06a-d930-4d92-93e1-ae77a01b066d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Display_240x320_ILI9341_2.4in_no_pads"
+		(at -1.27 0.024 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb202c69-4297-4de5-a5e2-5f38a8c26850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87034174-5b4d-46e5-bdf8-02ac9e772bbd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "75819591-3e85-484b-b346-63c157b25c66")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -18.29 34.8)
+		(end -18.29 38.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "517d3cea-4529-4a26-b0d9-990c9dac5394")
+	)
+	(fp_line
+		(start -18.29 38.34)
+		(end 18.29 38.34)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6cd1af42-f5c8-43a1-80c0-6a70a2b17c01")
+	)
+	(fp_line
+		(start -5.59 -38.37)
+		(end -5.59 -34.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a4b588a2-a4bf-4ec3-bd38-4a7f7ed30b60")
+	)
+	(fp_line
+		(start -5.59 -34.83)
+		(end 5.59 -34.83)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e154153-4163-41ad-954a-d8a5ffa94213")
+	)
+	(fp_line
+		(start 5.588 -38.37)
+		(end -5.59 -38.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a78d1b4-7151-4b4b-952d-1282855bb96b")
+	)
+	(fp_line
+		(start 5.59 -34.83)
+		(end 5.59 -38.37)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d05e26b8-b429-4c6d-a672-816e70314bc8")
+	)
+	(fp_line
+		(start 18.29 34.8)
+		(end -18.29 34.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "00157bbc-94f2-4418-a29a-cbaabe024de1")
+	)
+	(fp_line
+		(start 18.29 38.34)
+		(end 18.29 34.8)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e36d7de9-75ab-4e40-9d1c-aa8d2d7c6077")
+	)
+	(fp_rect
+		(start -21.36 -38.59)
+		(end 21.36 38.59)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "aed903f2-3d37-4f12-a673-7908b4b5c494")
+	)
+	(fp_circle
+		(center -16.51 36.59)
+		(end -16.637 36.463)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "45c4c8b3-5cab-4965-b08e-dc9fbdc77137")
+	)
+	(fp_circle
+		(center -3.81 -36.59)
+		(end -3.937 -36.717)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "User.1")
+		(uuid "f259c128-7f04-4b33-9c7f-aff124c5d16d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -1.27 1.524 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c203becd-48f5-439a-9328-6e898aa05155")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(point
+		(at -16.51 36.59)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "669a7ce7-dbb6-4153-b5aa-2d0bc25b72b0")
+	)
+	(point
+		(at -3.81 -36.59)
+		(size 1)
+		(layer "F.Cu")
+		(uuid "00718578-f6cb-4182-9392-1c42d1bfd43b")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.36 -35.59)
+		(size 5 5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "e6908938-491b-4442-881e-2667fc19895c")
+	)
+	(pad "" np_thru_hole circle
+		(at -18.36 31.67)
+		(size 5 5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "849e776b-0fb2-48c4-a2bd-357b5c8404ff")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.36 -35.59)
+		(size 5 5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "3aee0768-f2cd-4bdf-845f-1d28efca0a34")
+	)
+	(pad "" np_thru_hole circle
+		(at 18.36 31.67)
+		(size 5 5)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "d87848f3-947d-45b2-906f-d28df3248b0d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3D_models/Display_240x320_ILI9341_2.4in.step"
+		(offset
+			(xyz 21.36 -38.59 11)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -90)
+		)
+	)
+	
+)

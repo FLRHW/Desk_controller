@@ -1,0 +1,338 @@
+(footprint "Dell DC jack"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -17.25 0)
+		(layer "F.SilkS")
+		(uuid "398444e6-adce-4b96-a021-cc189b7363e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Dell DC jack"
+		(at 0 -15.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "970ca652-98d7-4de5-b329-2f0f4289d051")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f4e671bb-55e1-4bea-81a5-3073fbfd54c2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9418ffcc-214a-47f9-a762-9e128279a53c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -5.25 -10.75)
+		(end -5.25 -12.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1678f8fa-e262-456c-91a9-61c976a85455")
+	)
+	(fp_line
+		(start -5.25 -7.5)
+		(end -5.25 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9f638127-0dcb-4fd8-ae1d-1246c3d92679")
+	)
+	(fp_line
+		(start -5.25 0)
+		(end -5.25 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6dde088-b394-4e20-bc0c-bf9370decc39")
+	)
+	(fp_line
+		(start -4.25 -12.75)
+		(end -5.25 -12.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5516582f-d84f-4e2f-9433-c071681988e4")
+	)
+	(fp_line
+		(start 5.25 -12.75)
+		(end 4.25 -12.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5c5d3be6-4a1b-4675-bce9-eb1d961eae33")
+	)
+	(fp_line
+		(start 5.25 -10.75)
+		(end 5.25 -12.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "020f5795-597a-4861-bfee-6201b6bff4ab")
+	)
+	(fp_line
+		(start 5.25 -7.5)
+		(end 5.25 -4.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ec198719-83aa-499e-8b1c-e182dd9e1182")
+	)
+	(fp_line
+		(start 5.25 0)
+		(end -5.25 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8cfe642e-3979-41c4-8f9b-6fd545af7d5f")
+	)
+	(fp_line
+		(start 5.25 0)
+		(end 5.25 -1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2a50723-5266-4e59-8dcd-fed9b802db38")
+	)
+	(fp_line
+		(start -5.8 -13.3)
+		(end 5.8 -13.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "217629d0-f92f-4aa1-907d-3f86cdc2acdd")
+	)
+	(fp_line
+		(start -5.8 0.2)
+		(end -5.8 -13.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6530b530-3140-4e07-8ecf-bd9306f0a0d1")
+	)
+	(fp_line
+		(start 5.8 -13.3)
+		(end 5.8 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a084833f-9f39-4d75-acee-68fddd8991ef")
+	)
+	(fp_line
+		(start 5.8 0.2)
+		(end -5.8 0.2)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ab55fd65-0fae-49f8-9776-82e607df7de3")
+	)
+	(fp_line
+		(start -4.95 -12.4)
+		(end 4.95 -12.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afba7aff-d293-4074-8656-514d8712f0dd")
+	)
+	(fp_line
+		(start -4.95 0)
+		(end -4.95 -12.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4554cfbf-a80f-4e6a-814c-474164c3e8b0")
+	)
+	(fp_line
+		(start 4.95 -12.4)
+		(end 4.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ad5bd4f2-6fc9-44a0-8db0-2eac068e92be")
+	)
+	(fp_line
+		(start 4.95 0)
+		(end -4.95 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c97a704d-b0ae-4a7f-98de-9174669ee536")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -14.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5ffc803e-16b6-42ee-9cbe-996287a2fb54")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.725 -2.7)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "01eb159b-27c6-4cfa-9f3b-ffcf5fc1a8b2")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.725 -2.7)
+		(size 1.2 1.2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0a7285e5-4322-4af3-8b43-5e43e7b7b2a3")
+	)
+	(pad "1" thru_hole oval
+		(at -2.775 -12.25 90)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d7b06024-9a9a-4c46-898a-d40e30f6c01e")
+	)
+	(pad "1" thru_hole oval
+		(at 2.775 -12.25 90)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3b3eceec-64d8-4cb3-b37b-c649a02e485b")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -12.25 90)
+		(size 1.6 1.6)
+		(drill 0.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "680a15ea-4d00-402c-8aee-b050143a528c")
+	)
+	(pad "3" thru_hole oval
+		(at 0 -8.85 90)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1bfb97d6-6d02-4302-bff0-82c328991f74")
+	)
+	(pad "3" thru_hole oval
+		(at 0 -5.05 90)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f665d139-e54b-4ec0-9570-a9e9ce87d769")
+	)
+	(pad "SH" thru_hole rect
+		(at -4.775 -9.15)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7d7b5dd9-f22d-4b75-814b-567527e073ed")
+	)
+	(pad "SH" thru_hole rect
+		(at -4.775 -2.75)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b27bf697-46f2-408a-92a4-dbd0255df76f")
+	)
+	(pad "SH" thru_hole rect
+		(at 4.775 -9.15)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ef7b9c6a-c42b-41b1-b931-dba5663e0b2a")
+	)
+	(pad "SH" thru_hole rect
+		(at 4.775 -2.75)
+		(size 1.6 2.6)
+		(drill oval 0.5 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "15d06bdd-64cc-4363-9ada-9ca7d22b0d72")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/lib/3D_models/Dell_DC_barrel_jack.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	
+)
