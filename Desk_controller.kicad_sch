@@ -256,7 +256,7 @@
 		)
 		(uuid "938713a5-873f-47b2-84f3-592e6f0bb44d")
 	)
-	(text "18/10/2026"
+	(text "16/10/2026"
 		(exclude_from_sim no)
 		(at 102.235 44.45 0)
 		(effects
