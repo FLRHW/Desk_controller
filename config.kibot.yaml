@@ -843,7 +843,7 @@ outputs:
 
 ...
 definitions:
-  ZIP_ENABLED: 'false'  # true: generate mfg ZIPs; false: skip ZIPs
+  ZIP_ENABLED: 'true'  # true: generate mfg ZIPs; false: skip ZIPs
 
   ASSEMBLY_BOM_MODE: 'fitted'  # Chose between no bom, combined, separate and fitted:
     # no bom (BOM is not appended)
