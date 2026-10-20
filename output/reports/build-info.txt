@@ -1,10 +1,10 @@
 KiCad project build information
 ==============================
-Generated UTC: 2026-10-16T17:16:43Z
+Generated UTC: 2026-10-20T19:30:46Z
 Repository: FLRHW/Desk_controller
-Source commit: 71510ea8969e8eace104d2b2a75262f03b647667
-Source ref: refs/heads/main
-Workflow run: https://github.com/FLRHW/Desk_controller/actions/runs/38935378518
+Source commit: 96e8abb98b103a78ccbbd30ee247722942a537cd
+Source ref: refs/heads/ci/job-container-and-pages
+Workflow run: https://github.com/FLRHW/Desk_controller/actions/runs/39481351990
 Container image: ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8
 
 KiCad: 10.0.5
