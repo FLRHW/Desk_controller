@@ -5,8 +5,8 @@
 	(uuid "c9e7b9a6-62b2-48f6-a551-66a35aaefe25")
 	(paper "A4")
 	(title_block
-		(date "2026-10-18")
-		(rev "1.1.0")
+		(date "2026-10-21")
+		(rev "1.1.1")
 	)
 	(lib_symbols
 		(symbol "personal:Cosmetic_GND"
