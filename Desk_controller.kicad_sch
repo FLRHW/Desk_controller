@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Desk controller")
-		(date "2026-10-18")
-		(rev "1.1.0")
+		(date "2026-10-21")
+		(rev "1.1.1")
 	)
 	(lib_symbols)
 	(text "Table of contents"
@@ -124,6 +124,20 @@
 			(href "#1")
 		)
 		(uuid "4f26b479-4857-44fd-9d70-5a52635ae335")
+	)
+	(text "21/10/2026"
+		(exclude_from_sim no)
+		(at 102.235 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "51a2d87e-5155-4fad-b636-710479562909")
 	)
 	(text "1.1.0"
 		(exclude_from_sim no)
@@ -343,6 +357,20 @@
 		)
 		(uuid "c024c9f3-28e9-49e2-af83-f71b60784790")
 	)
+	(text "1.1.1"
+		(exclude_from_sim no)
+		(at 89.535 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "c7c58028-c9bb-4a9d-842e-93077a073f29")
+	)
 	(text "${SHEET_TITLE_6}"
 		(exclude_from_sim no)
 		(at 32.385 64.77 0)
@@ -385,6 +413,20 @@
 			(justify right top)
 		)
 		(uuid "cf93fcd0-b465-42fe-91bc-d302ee5e095f")
+	)
+	(text "Template updates: 1) CI now uses a single container; 2) added GitHub Pages publishing"
+		(exclude_from_sim no)
+		(at 123.825 49.53 0)
+		(effects
+			(font
+				(face "DejaVu Sans")
+				(size 2.032 2.032)
+				(thickness 0.3175)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "e371a047-aed4-42b0-9451-0f9808b3c199")
 	)
 	(text "10"
 		(exclude_from_sim no)
