@@ -2,7 +2,7 @@
 
 **A custom KiCad PCB design for a motorised sit–stand desk controller with a touchscreen human–machine interface (HMI).**
 
-[Hardware design](https://github.com/FLRHW/Desk_controller) · [Firmware repository](https://github.com/FLRHW/Desk_controller_source) · [3D renders](output/3d/) · [Manufacturing outputs](output/)
+[Hardware design](https://github.com/FLRHW/Desk_controller) · [Online documentation](https://flrhw.github.io/Desk_controller/) · [Firmware repository](https://github.com/FLRHW/Desk_controller_source) · [3D renders](output/3d/) · [Manufacturing outputs](output/)
 
 This repository contains the KiCad hardware design for a desk controller that brings together the user interface, control electronics, motor interface and end-of-travel sensing on one board. It is intended to interface with an external desk mechanism, motor/gearbox/encoder assembly and power supply. The project started as a personal engineering build; the design is published so others can inspect, learn from, or adapt it at their own risk.
 
@@ -39,7 +39,8 @@ Additional renders and design files:
 - [Fabrication documentation and files](output/fabrication/) — fabrication drawings, Gerbers and drill outputs (where generated).
 - [Assembly documentation and files](output/assembly/) — assembly drawings, BOM/iBOM and placement data (where generated).
 - [Design checks and build reports](output/reports/) — ERC/DRC and generation logs.
-- [Browse all generated outputs](output/) — full output tree; the [HTML index](output/index.html) is best viewed locally after cloning, as GitHub may show HTML source.
+- [Browse generated outputs online](https://flrhw.github.io/Desk_controller/) — published HTML index with links to PDFs, renders, interactive BOM and downloadable manufacturing files.
+- [Generated files in the repository](output/) — full output tree; the [local HTML index](output/index.html) can also be opened after cloning.
 - [Native PCB layout](Desk_controller.kicad_pcb) and [hierarchical schematic](Desk_controller.kicad_sch) — editable KiCad design sources.
 
 The generated files are published to make the design easier to review and reproduce. **Their presence does not imply that the PCB, assembly or motor-control system has been manufactured, tested or validated.** Check the current outputs and reports before considering fabrication.
@@ -92,7 +93,7 @@ The repository uses [KiBot](https://github.com/INTI-CMNB/KiBot) and GitHub Actio
 - Pick-and-place files and 3D STEP exports
 - Optional renders and manufacturing ZIP packages
 
-Open `output/index.html` to browse generated files where available. The original template's documentation contains more details on the export system: [FLRHW KiCad Starter](https://github.com/FLRHW/KiCad_starter).
+Browse the [online documentation](https://flrhw.github.io/Desk_controller/), or open `output/index.html` locally after cloning. The website is updated by successful default-branch builds when GitHub Pages publishing is enabled and shows the latest deployed outputs; use a release tag for a fixed snapshot. The original template's documentation contains more details on the export system: [FLRHW KiCad Starter](https://github.com/FLRHW/KiCad_starter).
 
 **Before ordering PCBs:** inspect the actual Gerbers, drill data, stack-up, BOM and fabrication notes. Generated outputs and a passing automation run are not substitutes for electrical and safety verification; inspect ERC/DRC reports separately.
 
