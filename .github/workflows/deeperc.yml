@@ -1,0 +1,62 @@
+name: DeepERC experiment
+
+on:
+  push:
+    branches: [derc]
+    paths-ignore:
+      - 'output/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  deeperc:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    container:
+      image: ghcr.io/flrhw/kibot-kicad10@sha256:dd3b846da945f204fa7b61916df34a99170b2a2095b49c3879cd96d414b8a7b8
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Check out Desk Controller
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+
+      - name: Check out DeepERC (pinned revision)
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5
+        with:
+          repository: deeperc/deeperc
+          ref: dc1d40cb95a07de8444fecd9e92eb6cdb013c024
+          path: _deeperc
+          persist-credentials: false
+
+      - name: Export hierarchical schematic netlist
+        run: |
+          set -euo pipefail
+          mkdir -p deeperc-results
+          kicad-cli sch export netlist \
+            --format kicadsexpr \
+            --output "$GITHUB_WORKSPACE/deeperc-results/Desk_controller.net" \
+            Desk_controller.kicad_sch
+
+      - name: Run DeepERC (informational)
+        run: |
+          set -euo pipefail
+          /usr/bin/python3 -m pip install --disable-pip-version-check \
+            --target "$RUNNER_TEMP/deeperc-python" \
+            -r _deeperc/requirements.txt
+          export PYTHONPATH="$RUNNER_TEMP/deeperc-python${PYTHONPATH:+:$PYTHONPATH}"
+          cd _deeperc
+          /usr/bin/python3 run_checks.py \
+            --board "$GITHUB_WORKSPACE/deeperc-results/Desk_controller.net" \
+            --skip-confirm \
+            --output-dir "$GITHUB_WORKSPACE/deeperc-results/checks"
+
+      - name: Upload DeepERC results
+        if: always()
+        uses: actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f # v6
+        with:
+          name: deeperc-results
+          path: deeperc-results/
+          if-no-files-found: warn
